@@ -1,0 +1,36 @@
+@midnight-blue: rgba(44, 62, 80,1.0);
+@blury: 0px 0px 30px @midnight-blue;
+
+
+div.stop-sign {
+	background-image: url(../pics/stop-sign.jpg);
+	background-size: cover;
+	height:90%;
+}
+
+div.stop-sign div.text-container {
+	width:50%;
+	margin-left: 0;
+	margin-top: 10%;
+}
+
+div.text-container h1 {
+	color: rgba(255,255,255,1.0);
+	font-weight: 400;
+	text-shadow: @blury;
+}
+
+div.text-container h2 {
+	color: white;
+	font-weight: 400;
+	font-style: italic;
+	text-shadow: @blury;
+	font-size: 40px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+div.stop-sign .btn {
+	font-size: 28px;
+	padding: 16px 26px;
+}

@@ -1,0 +1,28 @@
+div.stop-sign {
+  background-image: url(../pics/stop-sign.jpg);
+  background-size: cover;
+  height: 90%;
+}
+div.stop-sign div.text-container {
+  width: 50%;
+  margin-left: 0;
+  margin-top: 10%;
+}
+div.text-container h1 {
+  color: #ffffff;
+  font-weight: 400;
+  text-shadow: 0px 0px 30px #2c3e50;
+}
+div.text-container h2 {
+  color: white;
+  font-weight: 400;
+  font-style: italic;
+  text-shadow: 0px 0px 30px #2c3e50;
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+div.stop-sign .btn {
+  font-size: 28px;
+  padding: 16px 26px;
+}
